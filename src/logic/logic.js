@@ -15,7 +15,7 @@ function addtodoToproject(projectId,title,description,dueDate,priority) => {
     if(!project) return;
     const newtodo = createlist(title,description,dueDate,priority);
     project.todos.push(newTodo);
-}
+}    
 function getProjects(){
     return projects ;
 }
